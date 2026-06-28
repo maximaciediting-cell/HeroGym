@@ -25,9 +25,9 @@ import {
 import { motion, AnimatePresence } from "motion/react";
 
 const IMAGES = [
-  "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHww_o9LTALWghSpdORvxxNrO001qxaPzm9vjGMFxwZ0QQZFbwkikkVp_fRRqfdwG-PnxX9ldUjbLmmcdlRsFEoeLSqd7MSzXtulM_PGqHoWFRFAesh0rWmbZocR5LVnlpD51G32tuxA74Z=s1600",
-  "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqZcY4d942PZ5eY6-q43bM5ScQLIyzB6-q3zlwk8DBr6shnYzQplhUHzDv_SlpmNd2lVFz-gXH3CPSk7JO9t-00ZG7HETvSj0_A3l9MMjx4uU7dVPKGzdLBWSbbadUjIqfutHubBAUyFaO=s1600",
-  "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCGf3mFasrcu3Dezn7zmXny5uf4qnblG1CdfVnOhIXw24YMNODCc30OZ1MR-u92Smj9Q_LiY_5vXU5odQd7LFg1NN3YeVO5iQRZ-24u2ESwsvYF067KjuOy6na7o9TSnzEJX4S-6GY7T2v=s1600"
+  "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1600&q=80",
+  "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80",
+  "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80"
 ];
 
 const STICKY_NAV_CLASSES = "fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 transition-all duration-300";
@@ -299,19 +299,19 @@ export default function App() {
               {[
                 {
                   name: "Pase Diario",
-                  price: "$",
+                  price: "$12.000",
                   features: ["Acceso a todas las máquinas", "Uso de duchas y vestuarios", "Ambiente climatizado"],
                   popular: false
                 },
                 {
                   name: "Plan Mensual",
-                  price: "$$",
+                  price: "$60.000",
                   features: ["Acceso ilimitado", "Rutina personalizada gratis", "Acceso a clases grupales", "Evaluación física inicial"],
                   popular: true
                 },
                 {
                   name: "Plan Trimestral",
-                  price: "$$$",
+                  price: "$120.000",
                   features: ["Beneficio por pago adelantado", "Asesoría nutricional básica", "Entrenamiento personalizado", "Kit Hero de bienvenida"],
                   popular: false
                 }
